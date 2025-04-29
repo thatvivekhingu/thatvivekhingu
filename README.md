@@ -1,8 +1,6 @@
 
 
-# Hello World!, I'm Vivek Hingu👋🏼:
-
-<h1 align="center">Hi 👋, I'm Vivek from this side</h1>
+# Hello World!, I'm Vivek Hingu👋🏼
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thatvivekhingu&label=Profile%20views&color=0e75b6&style=flat" alt="thatvivekhingu" /> </p>
 
 - 🔭 I’m currently working on **projects**
