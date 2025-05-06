@@ -1,6 +1,7 @@
 
 
-# Hello World!, I'm Vivek Hingu👋🏼
+# Hello my name is Vivek
+   nice to meet you👋🏼
 
 - 🔭 I’m currently working on **Projects**
 
