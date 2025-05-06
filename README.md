@@ -1,6 +1,4 @@
-
-
-# Hello  world! ,I am Vivek Hingu from this side
+# Hello  world! , Vivek Hingu from this side
    
 
 - 🔭 I’m currently working on **Projects**
