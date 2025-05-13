@@ -1,11 +1,5 @@
 # Hello  world! , Vivek Hingu from this side
-   
 
-- 🔭 I’m currently working on **Projects**
-
-- 🌱 I’m currently learning **AI and ML**
-
-- 💬 Ask me about **UI/UX and Figma**
 
 - 📫 How to reach me **hinguvivek05@gmail.com**
 
