@@ -1,17 +1,3 @@
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1000&color=0FF7F7&center=true&vCenter=true&multiline=true&width=700&height=60&lines=%F0%9F%91%8B+Hey%2C+I'm+Vivek!;Creating+Cool+Projects+%F0%9F%92%A1;Learning+Every+Day+%F0%9F%93%9D" alt="Typing SVG" />
-</h3>
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Tech-Enthusiast-red?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/UI%2FUX%20Lover-blueviolet?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-green?style=for-the-badge&logo=python&logoColor=white" />
-</p>
-
-<p align="center">
-  <b>“I turn 💡 ideas into ⚙️ digital reality.”</b>
-</p>
 
 
 <h3 align="left">Connect with me:</h3>
