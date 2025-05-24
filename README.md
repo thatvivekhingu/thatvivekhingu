@@ -28,22 +28,3 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=thatvivekhingu&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
-![snake gif](https://github.com/thatvivekhingu/thatvivekhingu/blob/output/github-contribution-grid-snake.svg)
-
-## 😂 My Fun Side
-
-> Work hard, meme harder. Here's a glimpse of my vibe off-code. 🧢🎮
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/QMkPpxPDYY0fu/giphy.gif" width="250" height="200" alt="Coding stress gif" />
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmczb3VqZGU3dDhvd25haHdvMWNtbzRucDhzYndzZWp5MTA2cWIzZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/rLoBL3OOO0J2c/giphy.gif" width="250" height="200" alt="Bug fixing gif" />
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXU1bzZoZTY1cmRzYXJqdnB1Y3F5MGZhdHExN2g5Z2Z3cnU1cXh1OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JWuBH9rCO2uZuHBFpm/giphy.gif" width="250" height="200" alt="Debugging gif" />
-
-</div>
-
-<p align="center">
-  When life gives you bugs, I just <b>debug</b> the fun out of it! 😜
-</p>
