@@ -1,6 +1,6 @@
 # Vivek Hingu from this side
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&center=true&width=435&lines=Aspiring+Software+Developer;UI+Designer+%7C+Python+Lover;Learning+Every+Day+%F0%9F%93%9A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&center=true&width=435&lines=Aspiring+AI+ML;+%7C+Python+Lover;Learning+Every+Weekends+%F0%9F%93%9A" alt="Typing SVG" />
 </p>
 
 <h3 align="left">Connect with me:</h3>
@@ -29,16 +29,4 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=thatvivekhingu&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
-## 📫 Connect with Me
 
-<p align="left">
-  <a href="https://instagram.com/thatvivekhingu" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/>
-  </a>
-  <a href="mailto:youremail@example.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/vivek-hingu-16b6a92a6/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
-  </a>
-</p>
