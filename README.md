@@ -1,7 +1,8 @@
 # Vivek Hingu from this side
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&center=true&width=435&lines=Aspiring+AI+ML;+%7C+Python+Lover;Learning+Every+Weekends+%F0%9F%93%9A" alt="Typing SVG" />
-</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Hey+there!+I'm+Vivek+Hingu+%F0%9F%91%8B;Aspiring+Dev+%7C+UI+Designer+%7C+Python+Learner;Always+Building+%7C+Always+Growing+%F0%9F%8C%B1" alt="Typing SVG" />
+</h1>
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
