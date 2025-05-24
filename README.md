@@ -21,6 +21,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma"/>
 </p>
 
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=thatvivekhingu&show_icons=true&theme=tokyonight" height="180px" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thatvivekhingu&layout=compact&theme=tokyonight" height="180px" />
@@ -28,4 +29,16 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=thatvivekhingu&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
+## 📫 Connect with Me
 
+<p align="left">
+  <a href="https://instagram.com/thatvivekhingu" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="mailto:youremail@example.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/vivek-hingu-16b6a92a6/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
