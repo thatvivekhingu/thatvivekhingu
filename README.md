@@ -1,6 +1,7 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&pause=1000&center=true&vCenter=true&multiline=true&width=800&height=80&lines=Hey+%F0%9F%91%8B%2C+I'm+Vivek+Hingu.;Aspiring+Developer+%7C+UI+Designer+%7C+Tech+Explorer;Fuelled+by+Code%2C+Creativity+%26+Coffee+%E2%98%95%EF%B8%8F" alt="Typing SVG" />
-</h1>
+<h3 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1000&color=0FF7F7&center=true&vCenter=true&multiline=true&width=700&height=60&lines=%F0%9F%91%8B+Hey%2C+I'm+Vivek!;Creating+Cool+Projects+%F0%9F%92%A1;Learning+Every+Day+%F0%9F%93%9D" alt="Typing SVG" />
+</h3>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Tech-Enthusiast-red?style=for-the-badge&logo=github&logoColor=white" />
