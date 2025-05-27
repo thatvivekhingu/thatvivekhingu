@@ -17,3 +17,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma"/>
 </p>
 
+## 🏆 GitHub Achievements
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=thatvivekhingu&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
+
+## 📊 GitHub Stats
+
+![Vivek's GitHub stats](https://github-readme-stats.vercel.app/api?username=thatvivekhingu&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thatvivekhingu&layout=compact&theme=radical)
