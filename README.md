@@ -16,4 +16,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma"/>
+  <div style="text-align: center;">
+  <img src="https://pandas.pydata.org/static/img/pandas_mark.svg" width="40" height="40" alt="Pandas" />
+  <div style="font-size: 14px; margin-top: 5px;">Pandas</div>
+</div>
+
 </p>
