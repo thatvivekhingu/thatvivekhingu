@@ -6,37 +6,17 @@
 <a href="https://www.leetcode.com/thatvivekhingu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="thatvivekhingu" height="30" width="40" /></a>
 </p>
 
-### 💻 Languages & Tools I Know
-<p align="left">
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/></a><br><strong>Python</strong>
+### 💻 Languages & Tools I Know<p align="left">
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" /></a>
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" /></a>
+  <a href="#"><img src="https://pandas.pydata.org/static/img/pandas_mark.svg" width="40" /></a>
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" /></a>
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" /></a>
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" /></a>
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" /></a>
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" /></a>
 </p>
 
 <p align="left">
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" height="40" alt="NumPy"/></a><br><strong>NumPy</strong>
+  <strong>Python &nbsp;&nbsp; NumPy &nbsp;&nbsp; Pandas &nbsp;&nbsp; HTML &nbsp;&nbsp; CSS &nbsp;&nbsp; JavaScript &nbsp;&nbsp; Java &nbsp;&nbsp; Figma</strong>
 </p>
-
-<p align="left">
-  <a href="#"><img src="https://pandas.pydata.org/static/img/pandas_mark.svg" width="40" height="40" alt="Pandas"/></a><br><strong>Pandas</strong>
-</p>
-
-<p align="left">
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML"/></a><br><strong>HTML</strong>
-</p>
-
-<p align="left">
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS"/></a><br><strong>CSS</strong>
-</p>
-
-<p align="left">
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/></a><br><strong>JavaScript</strong>
-</p>
-
-<p align="left">
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java"/></a><br><strong>Java</strong>
-</p>
-
-<p align="left">
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma"/></a><br><strong>Figma</strong>
-</p>
-
-
