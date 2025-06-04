@@ -1,5 +1,5 @@
-<p> align="center">
-  <imgsrc="https://github.com/thatvivekhingu/thatvivekhingu/blob/main/ml-banner.jpg?raw=true" alt="Machine Learning Banner"/>
+<p align="center">
+  <img src="https://github.com/thatvivekhingu/thatvivekhingu/blob/main/ml.webp?raw=true" alt="Machine Learning Banner" />
 </p>
     
 <h3 align="left">Connect with me:</h3>
