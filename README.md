@@ -1,7 +1,4 @@
-![image](https://github.com/user-attachments/assets/07d03464-4d2c-434e-ad9a-c66772b8d2ce)
-
-![image](https://www.behance.net/gallery/68097599/Banner-Images-for-Coding-Challenges/modules/398083403)
-    
+![image](https://github.com/user-attachments/assets/07d03464-4d2c-434e-ad9a-c66772b8d2ce)    
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/vivek-hingu-16b6a92a6/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vivek-hingu-16b6a92a6/" height="30" width="40" /></a>
