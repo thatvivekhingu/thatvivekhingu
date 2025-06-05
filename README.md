@@ -21,6 +21,5 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" alt="Figma"/>
 </p>
 
-![image](https://github.com/user-attachments/assets/96513ccb-ed20-437b-a50a-6ab15e93b3a7)
 
 
