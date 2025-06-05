@@ -20,4 +20,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" alt="Java"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" alt="Figma"/>
 </p>
+![image](https://github.com/user-attachments/assets/f3aed673-a93f-48ac-afb3-e53712885741)
+
 
