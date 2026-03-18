@@ -6,10 +6,18 @@
     <!-- Left column: About me text -->
     <td style="width: 60%; vertical-align: top;">
       <div class="gradient-text">
-        Hey there, happy meeting you !!
         <ul>
-          <li>🧑‍🎓 I'm a 3<sup>rd</sup> year B.Tech In Information Technology from Sal College of Engineering Ahemdabad Gujarat India.</li>
-          <li>👍 I also love collaborating with new people and enjoy working on new technologies. I do love a good challenge!</li>
+      ## 👋 About Me
+
+Hi, I'm Vivek Hingu — an IT Engineering student passionate about Artificial Intelligence and Machine Learning.
+
+I enjoy exploring how machines can learn from data and make intelligent decisions. My main interest is building AI-powered applications that solve real-world problems and improve everyday life. I like experimenting with different ML models, working with data, and turning ideas into practical solutions.
+
+Currently, I am learning and developing projects in Machine Learning, Data Science, and Generative AI while strengthening my skills in Python and AI technologies.
+
+My goal is to become an AI/ML engineer and build intelligent systems that create meaningful impact.
+
+⚡ Always curious about data, algorithms, and the future of AI.>
         </ul>
       </div>
     </td>
