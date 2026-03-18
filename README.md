@@ -7,7 +7,6 @@
     <td style="width: 60%; vertical-align: top;">
       <div class="gradient-text">
         <ul>
-      ## 👋 About Me
 
 Hi, I'm Vivek Hingu — an IT Engineering student passionate about Artificial Intelligence and Machine Learning.
 
