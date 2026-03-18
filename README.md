@@ -1,4 +1,24 @@
 ![image](https://github.com/user-attachments/assets/07d03464-4d2c-434e-ad9a-c66772b8d2ce)    
+### About me:
+
+<table>
+  <tr>
+    <!-- Left column: About me text -->
+    <td style="width: 60%; vertical-align: top;">
+      <div class="gradient-text">
+        Hey there, happy meeting you !!
+        <ul>
+          <li>🧑‍🎓 I'm a 3<sup>rd</sup> year B.Tech In Information Technology from Sal College of Engineering Ahemdabad Gujarat India.</li>
+          <li>👍 I also love collaborating with new people and enjoy working on new technologies. I do love a good challenge!</li>
+        </ul>
+      </div>
+    </td>
+    <td style="width: 40%; text-align: center;">
+      <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="250" alt="Coding Cat GIF"/>
+    </td>
+  </tr>
+</table>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/vivek-hingu-16b6a92a6/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vivek-hingu-16b6a92a6/" height="30" width="40" /></a>
