@@ -25,6 +25,7 @@ My goal is to become an AI/ML engineer and build intelligent systems that create
     </td>
   </tr>
 </table>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=thatvivekhingu&label=Profile%20views&color=0e75b6&style=flat" alt="thatvivekhingu" /> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
