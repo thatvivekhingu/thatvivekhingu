@@ -1,30 +1,43 @@
-## 💻 Tech Stack
-
-### 👨‍💻 Programming Languages
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,js,html,css" />
+![image](https://github.com/user-attachments/assets/07d03464-4d2c-434e-ad9a-c66772b8d2ce)    
+### About me:
+<table>
+  <tr>
+    <!-- Left column: About me text -->
+    <td style="width: 60%; vertical-align: top;">
+      <div class="gradient-text">
+        <ul>
+Hi, I'm Vivek Hingu — an IT Engineering student passionate about Artificial Intelligence and Machine Learning.
+I enjoy exploring how machines can learn from data and make intelligent decisions. My main interest is building AI-powered applications that solve real-world problems and improve everyday life. I like experimenting with different ML models, working with data, and turning ideas into practical solutions.
+Currently, I am learning and developing projects in Machine Learning, Data Science, and Generative AI while strengthening my skills in Python and AI technologies.
+My goal is to become an AI/ML engineer and build intelligent systems that create meaningful impact.
+⚡ Always curious about data, algorithms, and the future of AI.>
+        </ul>
+      </div>
+    </td>
+    <td style="width: 40%; text-align: center;">
+      <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="250" alt="Coding Cat GIF"/>
+    </td>
+  </tr>
+</table>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=thatvivekhingu&label=Profile%20views&color=0e75b6&style=flat" alt="thatvivekhingu" /> </p>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/vivek-hingu-16b6a92a6/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vivek-hingu-16b6a92a6/" height="30" width="40" /></a>
+<a href="https://instagram.com/thatvivekhingu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="thatvivekhingu" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/thatvivekhingu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="thatvivekhingu" height="30" width="40" /></a>
+</p>
+### 💻 Languages & Tools I Know<p align="left"><p align="left"><p align="left">
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" alt="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" alt="NumPy"/>
+  <img src="https://pandas.pydata.org/static/img/pandas_mark.svg" width="40" alt="Pandas"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" alt="Matplotlib"/>
+  <img src="https://seaborn.pydata.org/_static/logo-mark-lightbg.svg" width="40" alt="Seaborn"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" alt="HTML"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" alt="CSS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" alt="Java"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" alt="Figma"/>
 </p>
 
-### 🤖 AI / Machine Learning
-<p>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45"/>
-<img src="https://pandas.pydata.org/static/img/pandas_mark.svg" width="45"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="45"/>
-<img src="https://matplotlib.org/_static/images/logo2.svg" width="45"/>
-<img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="45"/>
-</p>
-
-### 🧠 Generative AI
-<p>
-<img src="https://skillicons.dev/icons?i=github,vscode" />
-<img src="https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge&logo=chainlink&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-121212?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-</p>
-
-### 🛠 Tools
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma" />
-</p>
+add ai ml tech stack and add new features related to github
