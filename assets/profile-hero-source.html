@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vivek Hingu - Profile Hero</title>
+  <style>
+    :root {
+      --canvas: #05070a;
+      --panel: #080c11;
+      --line: #1b2732;
+      --line-strong: #263746;
+      --text: #d8e2ea;
+      --muted: #71808d;
+      --cyan: #58d8e8;
+      --green: #71e6a1;
+      --red: #ff5f57;
+      --yellow: #febc2e;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      width: 1920px;
+      height: 1080px;
+      margin: 0;
+      overflow: hidden;
+      background: var(--canvas);
+      color: var(--text);
+      font-family: "SFMono-Regular", "SF Mono", "IBM Plex Mono", "JetBrains Mono", Consolas, monospace;
+    }
+
+    .hero {
+      position: relative;
+      display: grid;
+      grid-template-columns: 47% 53%;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: var(--canvas);
+      border: 1px solid #1e2b36;
+    }
+
+    .portrait-panel {
+      position: relative;
+      overflow: hidden;
+      background: #0b0d0f;
+      border-right: 1px solid var(--line-strong);
+    }
+
+    .portrait {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 38%;
+    }
+
+    .portrait-vignette {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(2, 5, 8, 0.16), transparent 42%, rgba(2, 5, 8, 0.4)),
+        linear-gradient(0deg, rgba(2, 5, 8, 0.92), transparent 37%);
+      pointer-events: none;
+    }
+
+    .camera-meta {
+      position: absolute;
+      top: 30px;
+      left: 34px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      color: #b9c6cf;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .live-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 8px rgba(113, 230, 161, 0.48);
+    }
+
+    .camera-id {
+      color: var(--muted);
+    }
+
+    .face-frame {
+      position: absolute;
+      top: 150px;
+      left: 280px;
+      width: 350px;
+      height: 388px;
+    }
+
+    .corner {
+      position: absolute;
+      width: 54px;
+      height: 54px;
+      border-color: var(--cyan);
+      border-style: solid;
+      opacity: 0.92;
+    }
+
+    .corner.tl { top: 0; left: 0; border-width: 2px 0 0 2px; }
+    .corner.tr { top: 0; right: 0; border-width: 2px 2px 0 0; }
+    .corner.bl { bottom: 0; left: 0; border-width: 0 0 2px 2px; }
+    .corner.br { right: 0; bottom: 0; border-width: 0 2px 2px 0; }
+
+    .scan-line {
+      position: absolute;
+      top: 51%;
+      left: 12px;
+      right: 12px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(88, 216, 232, 0.92), transparent);
+      box-shadow: 0 0 7px rgba(88, 216, 232, 0.28);
+    }
+
+    .scan-index {
+      position: absolute;
+      right: -1px;
+      top: -26px;
+      color: var(--cyan);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+    }
+
+    .verification {
+      position: absolute;
+      left: 36px;
+      right: 36px;
+      bottom: 42px;
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      align-items: end;
+      gap: 42px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(88, 216, 232, 0.34);
+    }
+
+    .eyebrow,
+    .section-label {
+      margin: 0 0 10px;
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .verified-title {
+      margin: 0;
+      color: #f1f6f9;
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .verification-grid {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 11px 24px;
+      margin: 0;
+      font-size: 13px;
+      line-height: 1.2;
+    }
+
+    .verification-grid dt { color: var(--muted); }
+    .verification-grid dd { margin: 0; color: #cbd6dd; text-align: right; }
+    .verification-grid .good { color: var(--green); }
+
+    .terminal {
+      display: grid;
+      grid-template-rows: 56px 1fr;
+      min-width: 0;
+      background:
+        radial-gradient(circle at 92% 12%, rgba(88, 216, 232, 0.045), transparent 28%),
+        var(--panel);
+    }
+
+    .titlebar {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      background: #0c1117;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .traffic-lights {
+      display: flex;
+      gap: 10px;
+    }
+
+    .traffic-lights span {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+    }
+
+    .traffic-lights span:nth-child(1) { background: var(--red); }
+    .traffic-lights span:nth-child(2) { background: var(--yellow); }
+    .traffic-lights span:nth-child(3) { background: #28c840; }
+
+    .terminal-title {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #7d8a96;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .secure-label {
+      margin-left: auto;
+      color: var(--green);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+    }
+
+    .terminal-body {
+      display: grid;
+      grid-template-rows: 250px 1px 444px 1px 118px 1px 132px;
+      gap: 0;
+      padding: 25px 34px 0;
+      overflow: hidden;
+    }
+
+    .rule { background: var(--line); }
+
+    .overview {
+      display: grid;
+      grid-template-columns: 0.92fr 1.08fr;
+      gap: 42px;
+      padding-bottom: 22px;
+    }
+
+    .boot-log {
+      min-width: 0;
+      color: #aebbc5;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .prompt { color: var(--cyan); }
+    .boot-log .dim { color: var(--muted); }
+    .progress {
+      display: block;
+      width: 100%;
+      margin: 9px 0 12px;
+      color: var(--cyan);
+      font-size: 12px;
+      letter-spacing: 0;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .check-line { display: block; }
+    .check { color: var(--green); }
+
+    .system-info {
+      min-width: 0;
+      padding-left: 30px;
+      border-left: 1px solid var(--line);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 130px minmax(0, 1fr);
+      gap: 7px 15px;
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .info-grid dt { color: var(--muted); }
+    .info-grid dd {
+      margin: 0;
+      color: #dbe4ea;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .stack-section {
+      padding: 22px 0;
+    }
+
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      height: 377px;
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+    }
+
+    .stack-group {
+      min-width: 0;
+      padding: 18px 18px 15px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .stack-name {
+      margin: 0 0 13px;
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .stack-items {
+      margin: 0;
+      color: #aab8c2;
+      font-size: 13px;
+      line-height: 1.67;
+    }
+
+    .focus-section {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .focus-section .section-label { margin: 0; }
+
+    .focus-list {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0;
+      border-left: 1px solid var(--line);
+    }
+
+    .focus-item {
+      display: flex;
+      align-items: center;
+      min-height: 50px;
+      padding: 0 15px;
+      color: #b8c5ce;
+      font-size: 12px;
+      line-height: 1.35;
+      border-right: 1px solid var(--line);
+    }
+
+    .socials {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .socials .section-label { margin: 0; }
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 17px 30px;
+    }
+
+    .social-name {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .social-value {
+      display: block;
+      color: var(--green);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="hero">
+    <section class="portrait-panel" aria-label="Verified identity portrait">
+      <img class="portrait" src="./vivek-portrait.jpg" alt="Portrait of Vivek Hingu" />
+      <div class="portrait-vignette"></div>
+
+      <div class="camera-meta">
+        <span class="live-dot"></span>
+        <span>Live capture</span>
+        <span class="camera-id">Camera 01 / Identity node</span>
+      </div>
+
+      <div class="face-frame" aria-hidden="true">
+        <span class="corner tl"></span>
+        <span class="corner tr"></span>
+        <span class="corner bl"></span>
+        <span class="corner br"></span>
+        <span class="scan-line"><span class="scan-index">SCAN 092</span></span>
+      </div>
+
+      <div class="verification">
+        <div>
+          <p class="eyebrow">Biometric identity</p>
+          <h1 class="verified-title">FACE VERIFIED</h1>
+        </div>
+        <dl class="verification-grid">
+          <dt>Confidence</dt><dd>99.92%</dd>
+          <dt>Tracking</dt><dd>Stable</dd>
+          <dt>Status</dt><dd class="good">LIVE</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="terminal" aria-label="Developer profile terminal">
+      <header class="titlebar">
+        <div class="traffic-lights" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="terminal-title">vivek@devbox ~ % ./scan_profile --live</div>
+        <div class="secure-label">SECURE SESSION</div>
+      </header>
+
+      <div class="terminal-body">
+        <section class="overview">
+          <div class="boot-log">
+            <span><span class="prompt">$</span> <span class="dim">Initializing identity protocol...</span></span>
+            <span class="progress">&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;</span>
+            <span class="check-line"><span class="check">&#10003;</span> Identity Verified</span>
+            <span class="check-line"><span class="check">&#10003;</span> GitHub Connected</span>
+            <span class="check-line"><span class="check">&#10003;</span> AI Modules Loaded</span>
+            <span class="check-line"><span class="check">&#10003;</span> Developer Profile Ready</span>
+          </div>
+
+          <div class="system-info">
+            <p class="section-label">System info</p>
+            <dl class="info-grid">
+              <dt>Name</dt><dd>Vivek Hingu</dd>
+              <dt>Role</dt><dd>AI / ML Engineer</dd>
+              <dt>Education</dt><dd>B.E. Information Technology</dd>
+              <dt>College</dt><dd>SAL College of Engineering</dd>
+              <dt>CGPA</dt><dd>8.35 / 10</dd>
+              <dt>Location</dt><dd>Ahmedabad, Gujarat</dd>
+              <dt>Status</dt><dd>Building AI Products</dd>
+            </dl>
+          </div>
+        </section>
+
+        <div class="rule"></div>
+
+        <section class="stack-section">
+          <p class="section-label">Core stack</p>
+          <div class="stack-grid">
+            <div class="stack-group">
+              <p class="stack-name">Programming</p>
+              <p class="stack-items">Python<br />Java<br />JavaScript<br />SQL</p>
+            </div>
+            <div class="stack-group">
+              <p class="stack-name">Machine learning</p>
+              <p class="stack-items">Scikit-Learn<br />TensorFlow<br />PyTorch<br />XGBoost<br />OpenCV</p>
+            </div>
+            <div class="stack-group">
+              <p class="stack-name">Deep learning</p>
+              <p class="stack-items">CNN<br />RNN<br />LSTM<br />Transformers</p>
+            </div>
+            <div class="stack-group">
+              <p class="stack-name">Generative AI</p>
+              <p class="stack-items">LLMs &middot; RAG<br />Prompt Engineering<br />AI Agents<br />LangChain &middot; LangGraph</p>
+            </div>
+            <div class="stack-group">
+              <p class="stack-name">Backend</p>
+              <p class="stack-items">FastAPI<br />Flask<br />Node.js<br />Express</p>
+            </div>
+            <div class="stack-group">
+              <p class="stack-name">Frontend</p>
+              <p class="stack-items">React<br />Next.js<br />Tailwind CSS</p>
+            </div>
+            <div class="stack-group">
+              <p class="stack-name">Database</p>
+              <p class="stack-items">PostgreSQL<br />MongoDB<br />SQLite</p>
+            </div>
+            <div class="stack-group">
+              <p class="stack-name">Cloud &amp; tools</p>
+              <p class="stack-items">Docker<br />Git &middot; GitHub<br />Google Cloud</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="rule"></div>
+
+        <section class="focus-section">
+          <p class="section-label">Current focus</p>
+          <div class="focus-list">
+            <span class="focus-item">AI Agents</span>
+            <span class="focus-item">Computer Vision</span>
+            <span class="focus-item">RAG Systems</span>
+            <span class="focus-item">LLM Engineering</span>
+            <span class="focus-item">Generative AI</span>
+          </div>
+        </section>
+
+        <div class="rule"></div>
+
+        <section class="socials">
+          <p class="section-label">Connected nodes</p>
+          <div class="social-grid">
+            <div>
+              <span class="social-name">GitHub</span>
+              <span class="social-value">github.com/thatvivekhingu</span>
+            </div>
+            <div>
+              <span class="social-name">LinkedIn</span>
+              <span class="social-value">linkedin.com/in/vivekhingu</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
