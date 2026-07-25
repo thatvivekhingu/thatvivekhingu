@@ -1,4 +1,4 @@
-# Hi there, I'm Vivek Hingu 👋
+
 
 <div align="center">
 
@@ -20,7 +20,7 @@
 
 I am an **AI/ML Engineer & Full-Stack Developer** passionate about building high-impact artificial intelligence applications, scalable web services, and intelligent vernacular voice interfaces. My work bridges raw machine learning research and production-grade software engineering.
 
-- 🔭 **Currently Building**: **Foundr.AI** (AI Startup Success Predictor) & **BharatBhasha AI 2.0** (Indic Vernacular Voice OS)
+
 - 🧠 **Areas of Focus**: Machine Learning, Natural Language Processing (NLP), Voice AI, FastAPI, React, & Node.js
 - ⚡ **Technical Strengths**: Supervised/Unsupervised ML, Neural Architectures, Microservices, REST APIs, & Docker
 - 🤝 **Open for**: Machine Learning Collaborations, Open Source Projects, and Innovative Engineering Roles
@@ -67,15 +67,7 @@ I am an **AI/ML Engineer & Full-Stack Developer** passionate about building high
 ## 🌟 Featured Projects
 
 <table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🇮🇳 Bharat Bhasha AI 2.0</h3>
-      <p align="center">Enterprise Indic Multilingual AI Operating System featuring React + Vite UI, Express backend, Groq LLaMA 3.3 70B, Voice TTS/STT Synthesizer, AI OS Layer, and Docker deployment.</p>
-      <p align="center">
-        <a href="https://github.com/thatvivekhingu/Bharat-Bhasha-Ai-2.0"><b>View Repository »</b></a>
-      </p>
-    </td>
-    <td width="50%">
+<tr></tr>
       <h3 align="center">🚀 Ai Startup Success Predictor</h3>
       <p align="center">Decision-intelligence platform that uses machine learning models, FastAPI backend, and React UI to predict startup success probability, analyze financial risk, and generate actionable insights.</p>
       <p align="center">
