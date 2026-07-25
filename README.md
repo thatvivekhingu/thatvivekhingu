@@ -14,9 +14,9 @@
 
 I am a passionate **AI/ML Engineer & Full-Stack Developer** specializing in building intelligent, data-driven web applications and scalable machine learning solutions. With expertise spanning deep learning, natural language processing, predictive analytics, and modern web frameworks, I transform complex algorithms into seamless user experiences.
 
-- 🔭 **Currently Building**: Foundr.AI (AI Startup Success Predictor) & BharatBhasha AI (Indic Vernacular AI Platform)
+- 🔭 **Currently Building**: Foundr.AI (AI Startup Success Predictor) & BharatBhasha AI 2.0 (Enterprise Indic Vernacular OS)
 - 🧠 **Exploring**: Large Language Models (LLMs), Voice AI, & Multilingual NLP Architecture
-- 🎯 **Focus Areas**: Machine Learning, MLOps, Deep Learning, FastAPI, React, Node.js
+- 🎯 **Focus Areas**: Machine Learning, MLOps, Deep Learning, FastAPI, React, Node.js, Docker
 - 🤝 **Open to Collaboration**: AI/ML research projects, open-source initiatives, and innovative tech ventures
 
 ---
@@ -35,6 +35,7 @@ I am a passionate **AI/ML Engineer & Full-Stack Developer** specializing in buil
 ### 💻 Full-Stack Development
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -42,9 +43,10 @@ I am a passionate **AI/ML Engineer & Full-Stack Developer** specializing in buil
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### ⚙️ Tools & Databases
+### ⚙️ Tools & Infrastructure
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
@@ -56,26 +58,26 @@ I am a passionate **AI/ML Engineer & Full-Stack Developer** specializing in buil
 <table>
   <tr>
     <td width="50%">
+      <h3 align="center">🇮🇳 Bharat Bhasha AI 2.0</h3>
+      <p align="center">Enterprise-grade Indic Multilingual AI Operating System featuring React + Vite UI, Express backend, Groq LLaMA 3.3 70B, Voice TTS/STT Synthesizer, AI OS Layer, and Docker deployment.</p>
+      <p align="center">
+        <a href="https://github.com/thatvivekhingu/Bharat-Bhasha-Ai-2.0"><b>View Repository »</b></a>
+      </p>
+    </td>
+    <td width="50%">
       <h3 align="center">🚀 Ai Startup Success Predictor</h3>
       <p align="center">Decision-intelligence platform that uses machine learning models, FastAPI backend, and React UI to predict startup success probability, analyze financial risk, and generate actionable insights.</p>
       <p align="center">
         <a href="https://github.com/thatvivekhingu/Ai_Startup_Success_Predictor"><b>View Repository »</b></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">🇮🇳 Bharat Bhasha AI</h3>
       <p align="center">Next-gen Indic multilingual AI conversational assistant supporting 12+ Indian languages with real-time Speech-to-Text, Voice Call UI, and LLaMA 3.3 70B integration.</p>
       <p align="center">
         <a href="https://github.com/thatvivekhingu/Bharat_Bhasha_Ai"><b>View Repository »</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🍳 Recipe Recommender System</h3>
-      <p align="center">Content-based recommendation engine powered by TF-IDF vectorization & Cosine Similarity to suggest recipes based on diet, region, course, and available ingredients.</p>
-      <p align="center">
-        <a href="https://github.com/thatvivekhingu/Recipe-Recommender-system-"><b>View Repository »</b></a>
       </p>
     </td>
     <td width="50%">
