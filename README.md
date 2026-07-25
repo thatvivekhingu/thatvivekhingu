@@ -3,7 +3,6 @@
 <div align="center">
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;Building+Predictive+AI+%26+Indic+Voice+Systems;Creator+of+Foundr.AI+%26+BharatBhasha+AI+2.0)](https://git.io/typing-svg)
 
 <br/>
 
@@ -17,7 +16,7 @@
 
 ## 👨‍💻 About Me
 
-I am an **AI/ML Engineer & Full-Stack Developer** passionate about building high-impact artificial intelligence applications, scalable web services, and intelligent vernacular voice interfaces. My work bridges raw machine learning research and production-grade software engineering.
+I am an **AI/ML Engineer ** passionate about building high-impact artificial intelligence applications, scalable web services, and intelligent vernacular voice interfaces. My work bridges raw machine learning research and production-grade software engineering.
 
 
 - 🧠 **Areas of Focus**: Machine Learning, Natural Language Processing (NLP), Voice AI, FastAPI, React, & Node.js
