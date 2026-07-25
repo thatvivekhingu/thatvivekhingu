@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Vivek%20Hingu&fontSize=55&fontAlignY=35&desc=AI%20%26%20Machine%20Learning%20Engineer%20%7C%20Full-Stack%20Developer&descAlignY=62)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;Building+Predictive+AI+%26+Indic+Voice+Systems;Creator+of+Foundr.AI+%26+BharatBhasha+AI+2.0)](https://git.io/typing-svg)
 
